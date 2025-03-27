@@ -1,0 +1,5 @@
+# Separator line examples
+3 2 1
+--------
+# And some more
+5 4 3 2 1

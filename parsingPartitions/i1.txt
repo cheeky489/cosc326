@@ -1,0 +1,64 @@
+1 2 3
+---
+# Just a comment
+# There should be just one blank line after this
+
+
+
+
+
+
+---
+4 5 6
+# Own Testing
+1 2, 3
+! Not a comment
+# Multiple blank lines again
+
+
+
+----- 1 2 3 -----
+# That was not a separator
+-
+--
+1
+
+01 02 03
+1 02 3
+0
+10 23 3
+
+# Invalid but this might crash
+1.2, 2, 3
+2, 3.4, 4, 5
+
+1, 2
+1,2,3,4,5
+# These next lines should be errors
+1,2,,3
+2, 3 ,,,,4,5
+5,,6,7,8,9
+1,2,3,
+a, 2, 3
+1,b,3
+,1,2,3,4
+---
+# This is not right
+1.2, .2, 3
+---
+# This also should be an invalid scenario
+0 0 1 02 003
+---
+# So is this one
+2,, 3, 4
+---
+# Don't forget this one too
+1 a b 3 4 5 6
+---
+# Bruh
+-1 2 3
+---
+# YAY
+ 1 2 3
+---
+# That was not a scenario oops
