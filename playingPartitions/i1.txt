@@ -1,0 +1,17 @@
+# Scenario 1
+# Start
+1 2 3
+
+# Targets
+1 1 1 1 1 1
+6
+------
+# Scenario 2
+# Start
+5
+
+# Target
+1 2 2
+
+# Another target
+3 2
